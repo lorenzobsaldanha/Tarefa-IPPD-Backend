@@ -125,24 +125,11 @@ e GET http://localhost:3000/tasks
 ]  
 :::::::::::::::::::::::  
 Após POST http://localhost:3000/tasks  
-[  
-	{  
-		"id": 2,  
-		"descricao": "Soma dois numeros",  
-		"inicio": 50,  
-		"fim": 80,  
-		"status": "CONCLUIDA",  
-		"resultado": 130  
-	},  
-	{  
-		"id": 3,  
-		"descricao": "Nova tarefa",  
-		"inicio": 0,  
-		"fim": 1,  
-		"status": "PENDENTE",  
-		"resultado": null  
-	}  
-]  
+{
+  "descricao": "Nova tarefa",
+  "inicio": 0,
+  "fim": 1
+} 
 
 e GET http://localhost:3000/tasks  
 .........................  
