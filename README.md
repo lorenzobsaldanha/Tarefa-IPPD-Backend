@@ -1,18 +1,18 @@
 A tarefa foi realizada usando o software Insomnia.
 
-Ao dar GET http://localhost:3000/tasks com o tasks.json vazio:
+Ao dar GET http://localhost:3000/tasks com o tasks.json vazio:  
 
-\
+
 []  
 
 
-Após o POST http://localhost:3000/tasks
+Após o POST http://localhost:3000/tasks  
 {
   "descricao": "Tarefa 1",
   "inicio": 10,
   "fim": 20
-}
-\n............................\n
+}  
+............................  
 {
 	"id": 1,
 	"descricao": "Tarefa 1",
