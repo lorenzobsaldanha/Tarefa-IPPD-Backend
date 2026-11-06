@@ -3,8 +3,8 @@ A tarefa foi realizada usando o software Insomnia.
 Ao dar GET http://localhost:3000/tasks com o tasks.json vazio:
 
 \
-[]
-\
+[]  
+
 
 Após o POST http://localhost:3000/tasks
 {
