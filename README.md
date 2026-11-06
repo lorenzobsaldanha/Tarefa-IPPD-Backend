@@ -61,7 +61,7 @@ Após PUT http://localhost:3000/tasks/2
 	}  
 
 e GET http://localhost:3000/tasks  
-.......................
+.......................  
 [  
 	{  
 		"id": 1,  
