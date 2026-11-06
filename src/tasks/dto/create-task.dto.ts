@@ -1,5 +1,13 @@
+import { IsString, IsNumber, IsNotEmpty } from 'class-validator';
+
 export class CreateTaskDto {
-    descricao: string;
-    inicio: number;
-    fim: number;
+  @IsString()
+  @IsNotEmpty()
+  descricao: string;
+
+  @IsNumber()
+  inicio: number;
+
+  @IsNumber()
+  fim: number;
 }

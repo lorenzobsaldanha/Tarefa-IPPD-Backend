@@ -61,7 +61,7 @@ Após PUT http://localhost:3000/tasks/2
 	}  
 
 e GET http://localhost:3000/tasks  
-.......................  
+.......................
 [  
 	{  
 		"id": 1,  
@@ -125,11 +125,11 @@ e GET http://localhost:3000/tasks
 ]  
 :::::::::::::::::::::::  
 Após POST http://localhost:3000/tasks  
-{  
-  "descricao": "Nova tarefa",  
-  "inicio": 0,  
-  "fim": 1  
-}  
+{
+  "descricao": "Nova tarefa",
+  "inicio": 0,
+  "fim": 1
+} 
 
 e GET http://localhost:3000/tasks  
 .........................  
