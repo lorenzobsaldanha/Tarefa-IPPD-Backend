@@ -1,16 +1,18 @@
 A tarefa foi realizada usando o software Insomnia.
 
 Ao dar GET http://localhost:3000/tasks com o tasks.json vazio:
-||||||||||||||||||||||||
+
+
 []
------------------------
+
+
 Após o POST http://localhost:3000/tasks
 {
   "descricao": "Tarefa 1",
   "inicio": 10,
   "fim": 20
 }
-|||||||||||||||||||||||||
+............................
 {
 	"id": 1,
 	"descricao": "Tarefa 1",
@@ -19,7 +21,8 @@ Após o POST http://localhost:3000/tasks
 	"status": "PENDENTE",
 	"resultado": null
 }
-===================
+
+
 Após POST
 {
   "descricao": "Soma dois numeros",
@@ -28,7 +31,7 @@ Após POST
 }
 
 e GET
-------------------
+...................
 [
 	{
 		"id": 1,
