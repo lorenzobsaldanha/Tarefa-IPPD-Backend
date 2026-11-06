@@ -23,14 +23,14 @@ Após o POST http://localhost:3000/tasks
 }  
 ;:::::::::::::::::::::::::::::  
 
-Após POST  
+Após POST http://localhost:3000/tasks  
 {  
   "descricao": "Soma dois numeros",  
   "inicio": 50,  
   "fim": 80  
 }  
 
-e GET  
+e GET http://localhost:3000/tasks  
 ...................  
 [  
 	{  
