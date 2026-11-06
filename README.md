@@ -14,14 +14,14 @@ Após o POST http://localhost:3000/tasks
 }  
 ............................  
 {  
-	"id": 1,
-	"descricao": "Tarefa 1",
-	"inicio": 10,
-	"fim": 20,
-	"status": "PENDENTE",
-	"resultado": null
-}
-
+	"id": 1,  
+	"descricao": "Tarefa 1",  
+	"inicio": 10,  
+	"fim": 20,  
+	"status": "PENDENTE",  
+	"resultado": null  
+}  
+**************
 
 Após POST
 {
