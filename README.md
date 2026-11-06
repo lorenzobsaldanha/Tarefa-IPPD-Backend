@@ -21,36 +21,36 @@ Após o POST http://localhost:3000/tasks
 	"status": "PENDENTE",  
 	"resultado": null  
 }  
-**************
+;:::::::::::::::::::::::::::::  
 
-Após POST
-{
-  "descricao": "Soma dois numeros",
-  "inicio": 50,
-  "fim": 80
-}
+Após POST  
+{  
+  "descricao": "Soma dois numeros",  
+  "inicio": 50,  
+  "fim": 80  
+}  
 
-e GET
-...................
-[
-	{
-		"id": 1,
-		"descricao": "Tarefa 1",
-		"inicio": 10,
-		"fim": 20,
-		"status": "PENDENTE",
-		"resultado": null
-	},
-	{
-		"id": 2,
-		"descricao": "Soma dois numeros",
-		"inicio": 50,
-		"fim": 80,
-		"status": "PENDENTE",
-		"resultado": null
-	}
-]
-===================
+e GET  
+...................  
+[  
+	{  
+		"id": 1,  
+		"descricao": "Tarefa 1",  
+		"inicio": 10,  
+		"fim": 20,  
+		"status": "PENDENTE",  
+		"resultado": null  
+	},  
+	{  
+		"id": 2,  
+		"descricao": "Soma dois numeros",  
+		"inicio": 50,  
+		"fim": 80,  
+		"status": "PENDENTE",  
+		"resultado": null  
+	}  
+]  
+::::::::::::::::::::::  
 Após PUT http://localhost:3000/tasks/2
 {
 		"descricao": "Soma dois numeros",
