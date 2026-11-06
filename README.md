@@ -2,9 +2,9 @@ A tarefa foi realizada usando o software Insomnia.
 
 Ao dar GET http://localhost:3000/tasks com o tasks.json vazio:
 
-
+\n
 []
-
+\n
 
 Após o POST http://localhost:3000/tasks
 {
@@ -12,7 +12,7 @@ Após o POST http://localhost:3000/tasks
   "inicio": 10,
   "fim": 20
 }
-............................
+\n............................\n
 {
 	"id": 1,
 	"descricao": "Tarefa 1",
